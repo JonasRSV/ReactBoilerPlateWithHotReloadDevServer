@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/webpack -d",
-    "dev": "webpack-dev-server --hot --content-base ./output --open"
+    "dev": "webpack-dev-server --hot --content-base ./output --open",
+    "updateStyles": "sass src/styles/MAIN.sass output/index.css"
   },
   "keywords": [
     "boilerplate"
